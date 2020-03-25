@@ -1,0 +1,167 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Rats",
+				"abbreviation": "RT",
+				"full": "Rats",
+				"url": "",
+				"authors": [
+					"White"
+				],
+				"convertedBy": [
+					"White"
+				]
+			}
+		],
+		"dateAdded": 1585137581,
+		"dateLastModified": 1585137581
+	},
+	"monster": [
+		{
+			"name": "Skavenslave Swarm (Small)",
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"swarmSize": "S"
+			},
+			"source": "Rats",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "12d6 + 0",
+				"average": 42
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"passive": 15,
+			"cr": "3",
+			"damageTags": [
+				"S"
+			],
+			"senses": [
+				"darkvision 60ft"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Queekish"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"perception": "+5"
+			},
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "Poison"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				},
+				{
+					"conditionImmune": [
+						"charmed",
+						"grappled",
+						"paralyzed",
+						"stunned"
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Swarm Tactics",
+					"entries": [
+						"While the skavenslave swarm is above half health it has advantage on melee attack rolls."
+					]
+				},
+				{
+					"name": "Scurry",
+					"entries": [
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
+					]
+				},
+				{
+					"name": "Cowardly Wretches",
+					"entries": [
+						"Skavenslaves have disadvantage on Wisdom saving throws against being {@condition frightened} if they are outnumbered and no clanrat masters are within sight."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The skavenslave swarm has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The skavenslave swarm (small) can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small skaven. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Skavenslave swarm makes one attack against up to three creatures within reach."
+					]
+				},
+				{
+					"name": "Teeth, claws and steel",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage or {@h}4 ({@damage 1d6}) slashing damage if the swarm is below half health."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft"
+						}
+					}
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"uniqueId": "1e29f0ce85c3d97ff77572fdf270ba3a"
+		}
+	]
+}

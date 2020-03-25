@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1584997710,
-		"dateLastModified": 1584997710
+		"dateAdded": 1585143847,
+		"dateLastModified": 1585143847
 	},
 	"monster": [
 		{
@@ -84,7 +84,7 @@
 					]
 				},
 				{
-					"name": "Scurry",
+					"name": "Scurry Away!",
 					"entries": [
 						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
 					]
@@ -154,7 +154,7 @@
 				"RNG",
 				"RW"
 			],
-			"uniqueId": "f42f34838d9483b5f03df96f225a606b"
+			"uniqueId": "6da6f6ebd3d7d584f496b4932986c0ce"
 		},
 		{
 			"name": "Clanrat",
@@ -224,11 +224,11 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The skavenslave has advantage on an attack roll against a creature if at least one of the skavenslave's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated} ."
+						"The clanrat has advantage on an attack roll against a creature if at least one of the skavenslave's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated} ."
 					]
 				},
 				{
-					"name": "Scurry",
+					"name": "Scurry Away!",
 					"entries": [
 						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
 					]
@@ -236,7 +236,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The skavenslave has advantage on Wisdom (perception) checks that rely on smell."
+						"The clanrat has advantage on Wisdom (perception) checks that rely on smell."
 					]
 				}
 			],
@@ -297,7 +297,7 @@
 				"RCH",
 				"RW"
 			],
-			"uniqueId": "804eebb35bb62e22da7e1545540aafa8"
+			"uniqueId": "3e5c3e2c28569f1efd8248a4ec607ee1"
 		},
 		{
 			"name": "Stormvermin",
@@ -365,21 +365,21 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Pack Tactics",
+					"name": "Martial Advantage",
 					"entries": [
-						"The skavenslave has advantage on an attack roll against a creature if at least one of the skavenslave's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated} ."
+						"Once per turn, the stormvermin can deal an extra 7 ({@damage 3d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the stormvermin that isn't {@condition incapacitated}."
 					]
 				},
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The skavenslave has advantage on Wisdom (perception) checks that rely on smell."
+						"The stormvermin has advantage on Wisdom (perception) checks that rely on smell."
 					]
 				},
 				{
-					"name": "Martial Advantage",
+					"name": "Scurry Away!",
 					"entries": [
-						"Once per turn, the stormvermin can deal an extra 7 ({@damage 3d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the stormvermin that isn't {@condition incapacitated}."
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
 					]
 				}
 			],
@@ -422,8 +422,7 @@
 			},
 			"tokenUrl": "https://lh3.googleusercontent.com/zdDT0vbR-PSeYgqhknyW7sf9FuXCJM8DOllR7_H7ey4IhhkZ49t_oN3A2gDiIbdvbsNAMWlTVI0YSouRQS1_Tw2lwtVAvAmGBLpzEln9KkMYcTGGON76ySnZw3u_nAL0yQzBwPnpV_v5wn5tcI8paz24Lem7DzPA29txnrW_IzTQBzM_g8JOCEScHl8SH7BQMhdShxonXHwg-seb5ZdirvSWHx6rF15S40jHHnBMS9UgAN7oewBY-do8hSc93QeimB4_g-1SLLxi8OAZ2uKiN-FJTLQOIAMHEf6Me-1ozqD4oD6JGFhTd0fH7vpv379M_jGDg3UiT-BpM5sXrc4vdGOgTC8GE_MTyzplHesbT0Cr1RI36urbCRblxvnO9lKvdFICYf74ZPIiFlqaYz1bKcyh6Gz6KtZ3x6teI8Mnwcy20fQpyc5KYVi5v99hdKiDszpjUYjR8PmixvwlgPPErGkEkbONYgLUcB2iaRz_I3aSMVP0sdw2Z90WhJM424cOywfBKA8OGI2D7HPCsSpm3c-zTjfn_qb8S8HxEmPsMbSMYMVd4OKyHi8yrBffhsxHzTEvXpBnONob4ZTzOlDYim6NlMfCnLY-KTuoNaZ2raxoUcBu_ahcjHGqffE38XOExpcXIZUC_71fXXokDb8jBFC01NQkSkIRFbhPN8YMIhOUdZLI0aH_UceEGASxXOKCioP67Q=w1922-h939-ft",
 			"traitTags": [
-				"Keen Senses",
-				"Pack Tactics"
+				"Keen Senses"
 			],
 			"senseTags": [
 				"D"
@@ -441,7 +440,7 @@
 				"MW",
 				"RCH"
 			],
-			"uniqueId": "fa670d465d04329dde5baa5762f34db7"
+			"uniqueId": "6503d2d368304756ec1c90a3c13b9cfd"
 		},
 		{
 			"name": "Plague Monk",
@@ -503,15 +502,9 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Scurry",
+					"name": "Scurry Away!",
 					"entries": [
 						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
-					]
-				},
-				{
-					"name": "Keen Smell",
-					"entries": [
-						"The skavenslave has advantage on Wisdom (perception) checks that rely on smell."
 					]
 				},
 				{
@@ -530,6 +523,12 @@
 					"name": "Stench",
 					"entries": [
 						"Any creature that starts its turn within 5 feet of the plague monk must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to the plague monk's stench for 1 hour."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The plague monk has advantage on Wisdom (perception) checks that rely on smell."
 					]
 				}
 			],
@@ -588,7 +587,7 @@
 			"conditionInflict": [
 				"poisoned"
 			],
-			"uniqueId": "c8757077fe772823c37f706b15303508"
+			"uniqueId": "48b9221f69aee9350ca97fd59a161c26"
 		},
 		{
 			"name": "Night Runner",
@@ -656,21 +655,21 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Scurry",
+					"name": "Scurry Away!",
 					"entries": [
 						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
 					]
 				},
 				{
-					"name": "Keen Smell",
+					"name": "Pounce and Pin",
 					"entries": [
-						"The skavenslave has advantage on Wisdom (perception) checks that rely on smell."
+						"If the night runner moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone} he is also {@condition grappled} (escape {@dc 14}). Until this grapple ends, the gutter runner can't attack another target."
 					]
 				},
 				{
-					"name": "Pounce and Pin",
+					"name": "Keen Smell",
 					"entries": [
-						"If the gutter runner moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone} he is also {@condition grappled} (escape {@dc 14}). Until this grapple ends, the gutter runner can't attack another target."
+						"The night runner has advantage on Wisdom (perception) checks that rely on smell."
 					]
 				}
 			],
@@ -678,7 +677,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The gutter runner makes two rat claws attacks."
+						"The night runner makes two rat claws attacks."
 					]
 				},
 				{
@@ -690,7 +689,7 @@
 				{
 					"name": "Smoke Bomb",
 					"entries": [
-						"The gutter runner throws a smoke bomb at a hard surface within 30 feet, creating a short lived thick smoke in a 5-foot-radius sphere centered on that point. The sphere spreads around corners, and its area is heavily obscured. It lasts until end of gutter runner's turn."
+						"The night runner throws a smoke bomb at a hard surface within 30 feet, creating a short lived thick smoke in a 5-foot-radius sphere centered on that point. The sphere spreads around corners, and its area is heavily obscured. It lasts until end of gutter runner's turn."
 					]
 				}
 			],
@@ -729,7 +728,696 @@
 			"conditionInflict": [
 				"prone"
 			],
-			"uniqueId": "5d6bb98eab958987a209eb7e20dac938"
+			"uniqueId": "29e2b79a465cfe23941f7427fdbb7200"
+		},
+		{
+			"name": "Skavenslave Swarm (Small)",
+			"source": "Rats",
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"swarmSize": "S"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "12d6 + 0",
+				"average": 42
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "Poison"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				},
+				{
+					"conditionImmune": [
+						"charmed",
+						"grappled",
+						"paralyzed",
+						"stunned"
+					]
+				}
+			],
+			"languages": [
+				"Common",
+				"Queekish"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Swarm Tactics",
+					"entries": [
+						"While the skavenslave swarm is above half health it has advantage on melee attack rolls."
+					]
+				},
+				{
+					"name": "Scurry Away!",
+					"entries": [
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
+					]
+				},
+				{
+					"name": "Cowardly Wretches",
+					"entries": [
+						"Skavenslaves have disadvantage on Wisdom saving throws against being {@condition frightened} if they are outnumbered and no clanrat masters are within sight."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The skavenslave swarm has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The skavenslave swarm (small) can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small skaven. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Skavenslave swarm makes one attack against up to three creatures within reach."
+					]
+				},
+				{
+					"name": "Teeth, claws and steel",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage or {@h}4 ({@damage 1d6}) slashing damage if the swarm is below half health."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "ff7f69dbdb58090867269607fd471a3c"
+		},
+		{
+			"name": "Skavenslave Swarm (Big)",
+			"source": "Rats",
+			"size": "H",
+			"type": {
+				"type": "humanoid",
+				"swarmSize": "S"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "22d6 + 0",
+				"average": 77
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 16,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "Poison"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				},
+				{
+					"conditionImmune": [
+						"charmed",
+						"grappled",
+						"paralyzed",
+						"stunned"
+					]
+				}
+			],
+			"languages": [
+				"Common",
+				"Queekish"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Swarm Tactics",
+					"entries": [
+						"While the skavenslave swarm is above half health it has advantage on melee attack rolls."
+					]
+				},
+				{
+					"name": "Scurry Away!",
+					"entries": [
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
+					]
+				},
+				{
+					"name": "Cowardly Wretches",
+					"entries": [
+						"Skavenslaves have disadvantage on Wisdom saving throws against being {@condition frightened} if they are outnumbered and no clanrat masters are within sight."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The skavenslave swarm has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The skavenslave swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small skaven. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Stampede",
+					"entries": [
+						"When a skavenslave swarm moves through a space of another creature or that creature ends its turn inside the space of a swarm, it needs to succeed {@dc 15} Strength save or be knocked {@condition prone} and take {@damage 2d6} bludgeoning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Skavenslave swarm makes one attack against for any hostile creature within reach."
+					]
+				},
+				{
+					"name": "Teeth, claws and steel",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 4d6}) slashing damage or {@h}4 ({@damage 2d6}) slashing damage if the swarm is below half health."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"uniqueId": "e118db19a23b08940f45125f47ad337d"
+		},
+		{
+			"name": "Skavenslave Swarm (Vermintide)",
+			"source": "Rats",
+			"size": "G",
+			"type": {
+				"type": "humanoid",
+				"swarmSize": "S"
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "40d6 + 0",
+				"average": 140
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 10,
+			"int": 8,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "Poison"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				},
+				{
+					"conditionImmune": [
+						"charmed",
+						"grappled",
+						"paralyzed",
+						"stunned"
+					]
+				}
+			],
+			"languages": [
+				"Common",
+				"Queekish"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Swarm Tactics",
+					"entries": [
+						"While the skavenslave swarm is above half health it has advantage on melee attack rolls."
+					]
+				},
+				{
+					"name": "Scurry Away!",
+					"entries": [
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
+					]
+				},
+				{
+					"name": "Cowardly Wretches",
+					"entries": [
+						"Skavenslaves have disadvantage on Wisdom saving throws against being {@condition frightened} if they are outnumbered and no clanrat masters are within sight."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The skavenslave swarm has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The skavenslave swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small skaven. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Stampede",
+					"entries": [
+						"When a skavenslave swarm moves through a space of another creature or that creature ends its turn inside the space of a swarm, it needs to succeed {@dc 16} Strength save or be knocked {@condition prone} and take {@damage 4d6} bludgeoning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Skavenslave swarm makes one attack for any hostile creature within reach."
+					]
+				},
+				{
+					"name": "Teeth, claws and steel",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}21 ({@damage 6d6}) slashing damage or {@h}11 ({@damage 3d6}) slashing damage if the swarm is below half health."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://lh3.googleusercontent.com/69NoW0IbBDEcC8KWoxOXox8myr_Fv1z2I16x-EfygtF2vpoSXl8RxaAVcahUIGxXkG5FHSJrLbOTLPFPOXT4Ze23feJKD6HllJBGH1s8Z6QsioQyon7YVjnw3BblgYl49DzAUlIQ6OIxsJBmtQEx-WPRgEPXLBV18Zs3_O2ZmV2kGco9rCbSFxSmlPvyX1merZIeRAXW0Rasu4gE7Ku-obT5DIDl6gTEZKdjqGpgwuWvSJD50QFRJ3SxRJSiMKUsU41OzvpGazeAe6-g0JksedUgJbABjcR0tEOqSrx5MMGd7f_REmz7DpUvl0oHuRKOYmM-A-RdmrZQzv3Tbau5-IM2eXcSKwsH7RMc88U4WnzJ6CFPXMmKVJ6Jvx0GDNY6JZtzQBWJFFMjNnp1PCXZN4IRLG3m1dYBJzkotBKCVzOBZ0N62hOi7d3a6UGDi4KyK01hNUBCAiBOwOz090ZYJS528j-yCKf85KN2aISa4lP1KK0Qo-tJBYWU1vT3Cxw7MUWmPIsltpPc6Y9kRJdPFHENgqFyEFqqqnzeUq7nVDjdJ73meWaokDHAj_SphA0x9YDsU1DP3GU7K8b8XSdlelfj1m2GtSPtgrwSG3J_8FMUfXPVT-2uyfRQgdKbnN4NEepTV9C2i31T1LR5mBXLpraH15O-kFXbbsZMmyyxm1eX4NIOziSrDXMEjvHt_GQrzrFlDA=w1920-h902-ft",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"uniqueId": "778557fb0af4a8ca39a41b846fc07a4d"
+		},
+		{
+			"name": "Rat Ogre",
+			"source": "Rats",
+			"srd": true,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "8d10 + 32",
+				"average": 76
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 18,
+			"int": 2,
+			"wis": 7,
+			"cha": 5,
+			"skill": {
+				"athletics": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"understands Queekish but can't speak it."
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The rat ogre has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the rat ogre starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 5-6, the rat ogre goes berserk. On each of its turns while berserk, the rat ogre attacks the nearest creature it can see. If no creature is near enough to move to and attack, the rat ogre attacks an object, with preference for an object smaller than itself. Once the rat ogre goes berserk, it continues to do so until it is destroyed or regains all its hit points. It can use Bite attack as a bonus action while berserk.",
+						"The rat ogre's packmaster, if within 60 feet of the berserk rat ogre, can try to subdue it through whistles, yells and whip cracks. The rat ogre must be able to hear its packmaster, who must take an action to make a {@dc 15} Charisma (Intimidation) check. If the check succeeds, the rat ogre ceases being berserk. If it takes damage while still at 60 hit points or fewer, the rat ogre might go berserk again."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the rat ogre can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Rat ogre makes two fist attacks or one fist and one bit attack."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://lh3.googleusercontent.com/use2iOOKUBYlmjOmaZShn1crU4jzStmvTtTMn7l-P5I6m5a-SJPFs_NjyHbG-rBEfYD2y95HQkNmQe-vRrWK9Fue6_SYbdFqHKgkKyJAjlELEZgN14HWjRmBXTw93MK3phtk1cBiib5IWUqX8eDEH_0CZpj4WstVdWFbbhWHHe5CyajB-Tln8Zfs2c6lx34Awh7uv-azPxIbOjZc3GZ_zKkZcd7IPVFWCZw7jFBSRLuR2qIibA5TTFG99BgQ7RlQ_icTmlYIosDjHucbZ4j9GkZq-XCccgOrEVAqFW9iDA7aVr4EKMxdNowdW6Xj-Ay9Rg-yLDW4USt5h99AhwqJc0IKKDWbVdmSlozjMUgiYt3VmhZINy73bC6AcQsADxsBKgcX-WkpCvHJH_pnDqjPGGNRnlEfKpjzxb5WjfYSBoN0o22xyDiA9pq00pRGfiEfYQWrdeFYjocs85bcl2akStKxieTVX9Pr3gbl0zgWXLMfegeGtJHaH8VCHYO_Gx9mQo-6UO1TTnNZse12ydxTqE-oseIvOAZ8q-qrQPA5E_KSkRP57Nvu5yaMtTSnWvcmYc5DjDg9s76MGOwQVETnDm57CHWv9OGXxZ22tJc8QfsnzDq4YqN-YOJSI4w9J9BA92iriIguDquVYqPadA8E9SUh3eCJKylm-OhAnKyoj8o74m0dRVOtsfErs8x8Fo6mPiqbgg=w1920-h902-ft",
+			"traitTags": [
+				"Aggressive",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "ecdf4486104a5f500218fdec900227c8"
+		},
+		{
+			"name": "Packmaster",
+			"source": "Rats",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"skaven"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 16,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"intimidation": "+5",
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [],
+					"preNote": "Poison"
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				}
+			],
+			"languages": [
+				"Common",
+				"Queekish"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Scurry Away!",
+					"entries": [
+						"Skaven can quickly scamper away from danger. When skaven takes disengage or dash action, its base speed increases by 10 feet."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The packmaster has advantage on an attack roll against a creature if at least one of the packmaster's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated} ."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The packmaster has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Grappler",
+					"entries": [
+						"The packmaster has advantage on Charisma (Intimidation) checks against any creature {@condition grappled} by it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The packmaster makes two attacks: one with it’s whip and one with it’s shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage.If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the packmaster can’t use his whip on another target. If this attack is a critical hit, the target also can’t breathe or speak until the grapple ends."
+					]
+				}
+			],
+			"tokenUrl": "https://lh3.googleusercontent.com/m56A1CEaY7QEBnj3ddOGADYkE9649BfMR-3q0TkvbjOOU2rcomJ6MLqrV2eSU_wnDomgIcHaX7J-4xKBSLo6GEZgMG52zkFszVrWbP6A6I4831W0gqgA348ybQ-XTLF4XHtA5Jc7Dg6nYpFCdAyFVF-4rRLgCELvA3Uu22SDYomhQK20dZfp_3-eqEmXjJB9sp_Hyzh94v22EdbE50ugZAUtUoK1MIuIsAqe6kcdsy8a-WxiiV7VqslDvYrxG085WkS8AvA19dxBDQkSUgS3WG4GLlRfJQEOcwOU3vLKXWpv8SNd81g0OA6g2fNNaZgXKyyMcKOLYk-lhDs000ezQ4V5MIasfos-NZqZuAvXvuy8a6rg8gcqdCWyDn_5_VlyuNWc49tPA-FoO1YTNJxgotyhqq4llP1g3gxUGNcCSpDUepRrqtkLxp-raoJ0z4RQ1Is3wTWiHnOBIEEy8bfyGMsfH6cy-NDv-Vo7cPkKupLvL0OVYCtWm4_TAVRmdLoUAY0W4wSschyCn4KeIWMjPC6g7wxWgjdyGMrx443zQZWAzbY_o9WgmXe25aU-9ly1kP36RaSwhmLfGx35n5H3k_UT8ZXgSo8G5wngntlrU9LI0jGdG-oRUTbzP-5HVEtXurVDHR5w3C3zMlPwgzYcCh1MRbvAzzYrq2sKFNAnfYOBylAa0yWMFhfAnK4v4jDg1lxUUg=w1920-h902-ft",
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"uniqueId": "f2e5db7b6c5ab6ab9dff62b3bf3bd005"
 		}
 	]
 }
